@@ -1,7 +1,7 @@
 import { Download } from 'lucide-react'
 import React from 'react'
 import hero from '../assets/hero.png'
-import resume from '../Documents/Resume.pdf'
+
 
 const HeroSection = () => {
     return (
@@ -28,7 +28,7 @@ const HeroSection = () => {
                                 <span className='relative flex items-center justify-center text-white font-semibold'>Hire Me</span>
                             </button>
 
-                            <a href={resume} download="resume.pdf" className='px-8 py-3.5 rounded-full relative group w-full sm:w-auto flex justify-center items-center gap-3 transition-all duration-300 ease-in-out hover:-translate-y-1 cursor-pointer overflow-hidden border border-primary/50 hover:border-primary bg-transparent shadow-[0_0_15px_rgba(6,162,194,0.1)] hover:shadow-[0_0_25px_rgba(6,162,194,0.3)]'>
+                            <a href="https://drive.google.com/uc?export=download&id=1XTbcU0S_GIwoCfyUad0jh1B9OoOxO4t6" target="_blank" rel="noopener noreferrer" className='px-8 py-3.5 rounded-full relative group w-full sm:w-auto flex justify-center items-center gap-3 transition-all duration-300 ease-in-out hover:-translate-y-1 cursor-pointer overflow-hidden border border-primary/50 hover:border-primary bg-transparent shadow-[0_0_15px_rgba(6,162,194,0.1)] hover:shadow-[0_0_25px_rgba(6,162,194,0.3)]'>
                                 <div className='absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
                                 <Download size={20} className='text-primary group-hover:-translate-y-1 group-hover:animate-pulse relative z-10 transition-transform duration-300' />
                                 <span className='relative z-10 flex items-center justify-center text-gray-700 dark:text-gray-300 group-hover:text-gray-900 dark:group-hover:text-white font-semibold transition-colors duration-300'>Download Resume</span>
